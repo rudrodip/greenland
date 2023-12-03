@@ -246,6 +246,26 @@
   transform: scaleX(1);
 }
 
+.border-gradient {
+  border: 0.2px solid;
+  border-image-slice: 1;
+  border-width: 0.2px;
+}
+
+.border-gradient-primary {
+  border-image-source: linear-gradient(to left, transparent, rgba(8, 212, 202, 0.1), rgba(8, 212, 202, 0.3), rgba(8, 212, 202, 0.1), transparent);
+}
+
+.border-gradient-primary-full {
+  border-image-source: linear-gradient(to left, rgba(8, 212, 202, 0.5), rgba(8, 212, 168, 0.5));
+}
+
+.only-bottom {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
 .app {
   @apply relative flex items-center flex-col w-full max-w-7xl mx-auto lg:mx-auto;
 }

@@ -20,8 +20,8 @@ export default async function MarketingLayout({
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="z-40 mx-2 lg:mx-0 sticky top-0">
-        <div className="flex h-15 items-center justify-between lg:justify-evenly py-6 border-none border-gradient border-gradient-primary only-bottom mb-1 bg-secondary/20 backdrop-blur-md">
+      <header className="z-40 lg:mx-0 sticky top-0">
+        <div className="flex h-14 lg:h-15 items-center justify-between gap-2 lg:justify-evenly py-6 border-none border-gradient border-gradient-primary only-bottom mb-1 bg-secondary/20 backdrop-blur-md">
           <Link href="/" className="hidden items-center space-x-2 md:flex">
             <Icons.logo />
             <span className="hidden font-bold sm:inline-block">
@@ -41,8 +41,8 @@ export default async function MarketingLayout({
               />
             ) : (
               <Button asChild>
-      <Link href="/login">Login</Link>
-    </Button>
+                <Link href="/login">Login</Link>
+              </Button>
             )}
           </div>
         </div>

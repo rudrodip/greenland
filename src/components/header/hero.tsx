@@ -45,7 +45,7 @@ const BigLogo = () => {
   return (
     <section id="big-logo" className="flex justify-center items-center">
       <h1 className="primary-gradient font-heading tracking-wider leading-relaxed text-6xl lg:text-8xl text-justify primary-gradient">
-        greenlander
+        GreenLander
       </h1>
     </section>
   );

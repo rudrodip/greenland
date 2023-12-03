@@ -24,7 +24,7 @@ export const featureConfig: FeaturesConfig = {
     },
     {
       name: "Research Papers Hub",
-      desc: "Access a vast repository of research papers on climate change. Greenland provides a platform for users to delve into the latest scientific findings, fostering a deeper understanding of climate science and sustainability.",
+      desc: "Access a vast repository of research papers on climate change. greenlanderer provides a platform for users to delve into the latest scientific findings, fostering a deeper understanding of climate science and sustainability.",
       imageUrl: "/features/research.png"
     },
     {

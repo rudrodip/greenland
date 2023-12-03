@@ -1,11 +1,11 @@
 import { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-  name: "Greenland",
+  name: "greenlander",
   description:
     "Empowering global citizens with interactive climate education and actionable steps for a sustainable future. Join the movement to understand, engage, and contribute to the fight against climate change.",
-  url: "https://greenland.vercel.app",
-  ogImage: "https://greenland.vercel.app/og.png",
+  url: "https://greenlander.vercel.app",
+  ogImage: "https://greenlander.vercel.app/og.png",
   creator: {
     name: "Rudrodip Sarker",
     url: "https://rudrodip.tech",

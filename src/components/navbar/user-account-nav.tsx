@@ -36,14 +36,7 @@ export function UserAccountNav({ user }: UserAccountNavProps) {
               </p>
             )}
           </div>
-        </div>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem asChild className="cursor-pointer">
-          <Link href={`/${user.name}`}>Profile</Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild className="cursor-pointer">
-          <Link href="/dashboard">Dashboard</Link>
-        </DropdownMenuItem >
+        </div>        
         <DropdownMenuSeparator />
         <DropdownMenuItem
           className="cursor-pointer"

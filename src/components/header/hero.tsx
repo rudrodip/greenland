@@ -5,10 +5,10 @@ import EarthCanvas from "../threed-scenes/Earth";
 export default function Hero() {
   return (
     <section id="hero" className="max-x-7xl my-5 mx-2 lg:mx-0">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-10 lg:mt-24">
         <div className="px-3 py-2 border border-primary/30 rounded-full hover:scale-105 transition-transform duration-75 shine shine-hover backdrop-blur-sm">
           <div className="flex justify-center gap-3 items-center">
-            <Icons.logo width={25} height={25} />
+            <Icons.logo width={30} height={30} />
             <Link href="/#support" className="primary-gradient">
               Support us build the future
             </Link>
@@ -31,8 +31,8 @@ export default function Hero() {
         </div>
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/fOtChVfzpCI"
-          title="#LIVE COP28 Reaching the Last Mile - Pledging Session"
+          src="https://www.youtube.com/embed/27J4Kl856bQ"
+          title="GreenLander - AI powered Climate Change Education Platform | Hack for Earth Hackathon Submission"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen={true}
         ></iframe>

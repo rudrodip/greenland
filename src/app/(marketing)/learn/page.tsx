@@ -22,7 +22,7 @@ export default async function BlogPage() {
         <h1 className="head-text text-center my-5 lg:my-16">Learn about <span className="primary-gradient">Climate Change</span></h1>
         <Link href="/blog">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl primary-gradient underline-animation mb-5">
-            greenlander Blog
+            GreenLander Blog
           </h1>
         </Link>
         {posts?.length ? (

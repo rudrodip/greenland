@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Contribute to GreenLander
+
+Thank you for considering contributing to GreenLander! We appreciate your interest in helping make our platform better and more impactful. This guide outlines the steps for contributing to our GitHub repository.
 
 ## Getting Started
 
-First, run the development server:
+Let's start hacking!!
+
+### Fork the Repository
+
+Click on the "Fork" button at the top right corner of the [GreenLander repository](https://github.com/rudrodip/greenland). This will create a copy of the repository in your GitHub account.
+
+### Clone Your Fork
+
+Clone your fork to your local machine. Replace `<your-username>` with your GitHub username.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/<your-username>/greenland.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Set Up the Development Environment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Navigate to the project directory and install the dependencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd greenland
+npm install
+```
 
-## Learn More
+## Making Changes
 
-To learn more about Next.js, take a look at the following resources:
+### Create a Branch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a new branch for your changes. Use a descriptive branch name that reflects the changes you are making.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+git checkout -b feature/your-feature
+```
 
-## Deploy on Vercel
+### Make Your Changes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Implement your changes. Follow the project's coding guidelines and ensure that your code is well-documented.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Commit Your Changes
+
+Commit your changes with a clear and concise commit message.
+
+```bash
+git add .
+git commit -m "Add your commit message here"
+```
+
+### Push to Your Fork
+
+Push your changes to your fork on GitHub.
+
+```bash
+git push origin feature/your-feature
+```
+
+## Submit a Pull Request
+
+### Create Pull Request
+
+Visit your fork on GitHub and click on the "New Pull Request" button. Ensure that you are comparing the correct branches.
+
+### Review Process
+
+Your pull request will be reviewed by the maintainers. Be responsive to any feedback and make necessary changes. Once approved, your changes will be merged into the main repository.
+
+## Code of Conduct
+
+Please read and adhere to our [Code of Conduct](/code-of-conduct) to ensure a positive and inclusive community environment.
+
+## License
+
+By contributing to GreenLander, you agree that your contributions will be licensed under the [MIT License](/license).

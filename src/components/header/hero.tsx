@@ -31,8 +31,8 @@ export default function Hero() {
         </div>
         <iframe
           className="w-full h-full"
-          src="https://www.youtube.com/embed/xZwEQJX_JbQ"
-          title="NexusOS - Demo Video from &#39;Cholo Bangladesh&#39; - NASA Space Apps Challenge 2023"
+          src="https://www.youtube.com/embed/fOtChVfzpCI"
+          title="#LIVE COP28 Reaching the Last Mile - Pledging Session"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen={true}
         ></iframe>

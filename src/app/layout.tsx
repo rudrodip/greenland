@@ -28,10 +28,6 @@ export const metadata = {
   keywords: siteConfig.keywords,
   authors: [siteConfig.creator],
   creator: siteConfig.creator.name,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
   openGraph: {
     type: "website",
     locale: "en_US",

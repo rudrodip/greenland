@@ -49,7 +49,8 @@ export default function GenerateFact() {
   }, [cooldown]);
 
   return (
-    <section className="container mx-auto my-10">
+    <section className="container mx-auto my-10 lg:my-24">
+      <h1 className="head-text text-center">Know Facts about Climate Change</h1>
       <div className="flex flex-col justify-center items-center p-5">
         <div className="relative w-[700px] h-[700px] border rounded-md p-5" ref={containerRef}>
           <Image

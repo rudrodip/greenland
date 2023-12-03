@@ -61,7 +61,9 @@ export default function App() {
         <p>No articles published.</p>
       )}
       <GenerateFact />
-      <ContactPage />
+      <div className="grid grid-cols-1 w-full lg:mb-32">
+        <ContactPage />
+      </div>
     </main>
   );
 }

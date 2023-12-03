@@ -49,10 +49,10 @@ export default function GenerateFact() {
   }, [cooldown]);
 
   return (
-    <section className="container mx-auto my-10 lg:my-24">
+    <section className="grid grid-cols-1 container mx-auto">
       <h1 className="head-text text-center">Know Facts about Climate Change</h1>
       <div className="flex flex-col justify-center items-center p-5">
-        <div className="relative w-[700px] h-[700px] border rounded-md p-5" ref={containerRef}>
+        <div className="relative w-[400px] h-[400px] lg:w-[700px] lg:h-[700px] border rounded-md p-5" ref={containerRef}>
           <Image
             src="/bg/team.png"
             alt="Earth"

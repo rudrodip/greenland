@@ -6,7 +6,6 @@ import { useState } from "react";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -27,17 +26,13 @@ export function LoginButton() {
           <Card>
             <CardHeader>
               <Image
-                src="/images/features/feature5.png"
+                src="/bg/team.png"
                 alt="connect"
                 width={600}
                 height={600}
                 className="rounded-md"
               />
               <CardTitle>Sign In</CardTitle>
-              <CardDescription>
-                Stay connected by signing in. Access your profile and connect
-                with others.
-              </CardDescription>
             </CardHeader>
             <CardContent className="space-y-2 flex justify-center flex-col">
               <Button
@@ -57,17 +52,13 @@ export function LoginButton() {
           <Card>
             <CardHeader>
               <Image
-                src="/images/features/feature7.png"
+                src="/bg/team.png"
                 alt="connect"
                 width={600}
                 height={600}
                 className="rounded-md"
               />
               <CardTitle>Sign Up</CardTitle>
-              <CardDescription>
-                Join Our Community: Become a part of our growing community and
-                connect with like-minded individuals, and let&apos;s accelerate NASA&apos;s open science initiative together
-              </CardDescription>
             </CardHeader>
             <CardContent className="space-y-2 flex justify-center flex-col">
               <Button

@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
       </div>
       <BigLogo />
-      <h1 className="text-center lg:block font-heading tracking-wider leading-relaxed text-4xl lg:text-5xl">
+      <h1 className="text-center lg:block font-heading tracking-wider text-3xl lg:text-5xl">
         Nurturing Knowledge, Growing Change
       </h1>
       <div className="relative">
@@ -44,7 +44,7 @@ export default function Hero() {
 const BigLogo = () => {
   return (
     <section id="big-logo" className="flex justify-center items-center">
-      <h1 className="primary-gradient font-heading tracking-wider leading-relaxed text-6xl lg:text-8xl text-justify primary-gradient">
+      <h1 className="primary-gradient font-heading tracking-wider leading-relaxed text-5xl lg:text-8xl text-justify primary-gradient">
         GreenLander
       </h1>
     </section>
